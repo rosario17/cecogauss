@@ -1,4 +1,3 @@
-
 // Completar las condiciones de los if del siguiente script
 // para que los mensajes de alert() se muestre siempre de y && o ||
 // forma correcta:
