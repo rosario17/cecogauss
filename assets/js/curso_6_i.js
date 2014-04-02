@@ -21,7 +21,7 @@ Almacene en una variable el número DNI indicado por el usuario y en otra variab
 la letra del dNI que se ha indicado. (Pista: si se quiere pedir directamente al usuario
 que indique su número y su letra, se puyede utilizar la función prompt())
 En primer lugar (y en una sola instrucción) se debe comprobar si el número es menor que
-0 o mayor que 99999999. Si ese es el caso, se muestra un mensaje al usuario indicando que
+0 o mayor que 99 999 999. Si ese es el caso, se muestra un mensaje al usuario indicando que
 el número proporcionado no es válido y el programa no muestra más mensajes.
 Si el número es válido, se calcula la letra que le corresponde según el método explicado
 anteriormente.
@@ -31,14 +31,14 @@ no es correcta. En otro caso, se muestra un mensaje indicando que el número y l
 DNI son correctos
 */
 
-var numero = prompt("Introduce tu número de DNI (sin la letra) ");
-var letra = prompt("Introduce tu letra de DNI (sin la letra) ");
 var letras = [ 'T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E', 'T' ];
+var numero = prompt("Introduce tu número de DNI (sin la letra) ");
 
 if (numero>=0 && numero <= 99999999) {
+var letra = prompt("Introduce tu letra de DNI (sin la letra) ");
 	resto = numero%23;
 	if (letra==letras[resto]) {
-		alert("numero y letra correctos")
+		alert("NUUMERO Y LETRA CORRECTOS")
 	}
 	else{
 		alert("Letra incorrecta")
