@@ -5,8 +5,7 @@ else{
 	...
 };
 
-var numero = prompt("Introduce tu número de DNI (sin la letra) ");
-
+var numero = prompt("Introduce tu número de DNI (sin la letra) "); 
 el cálculo de la letra del Documento Nacional de Identidad (DNI) es un proceso
 matemático sencillo que se basa en obtener el resto de la divisiòn entera del
 número de DNI y el número 23. A partir del resto de la división, se obtiene la letra
@@ -17,25 +16,24 @@ var letras = [ 'T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 
 Por tanto si el resto de la división es 0, la letra del DNI es la T y si el resto es 3
 la letra es la A. con estos datos, elaborar un pequeño script que:
 
-Almacene en una variable el número DNI indicado por el usuario y en otra variable
-la letra del dNI que se ha indicado. (Pista: si se quiere pedir directamente al usuario
-que indique su número y su letra, se puyede utilizar la función prompt())
-En primer lugar (y en una sola instrucción) se debe comprobar si el número es menor que
-0 o mayor que 99 999 999. Si ese es el caso, se muestra un mensaje al usuario indicando que
-el número proporcionado no es válido y el programa no muestra más mensajes.
-Si el número es válido, se calcula la letra que le corresponde según el método explicado
-anteriormente.
-Una vez calculada la letra se debe comparar con la letra indicada por el usuario.
-Si no coincide, se muestra un mensaje al usuario diciéndole que la letra que ha idnciado
-no es correcta. En otro caso, se muestra un mensaje indicando que el número y la letra de
-DNI son correctos
-*/
+Almacene en una variable el número DNI indicado por el usuario y en otra
+variable la letra del dNI que se ha indicado. (Pista: si se quiere pedir
+directamente al usuario que indique su número y su letra, se puyede utilizar la
+función prompt()) En primer lugar (y en una sola instrucción) se debe comprobar
+si el número es menor que 0 o mayor que 99 999 999. Si ese es el caso, se
+muestra un mensaje al usuario indicando que el número proporcionado no es válido
+y el programa no muestra más mensajes. Si el número es válido, se calcula la
+letra que le corresponde según el método explicado anteriormente. Una vez
+calculada la letra se debe comparar con la letra indicada por el usuario. Si no
+coincide, se muestra un mensaje al usuario diciéndole que la letra que ha
+idnciado no es correcta. En otro caso, se muestra un mensaje indicando que el
+número y la letra de DNI son correctos */
 
 var letras = [ 'T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E', 'T' ];
 var numero = prompt("Introduce tu número de DNI (sin la letra) ");
 
 if (numero>=0 && numero <= 99999999) {
-var letra = prompt("Introduce tu letra de DNI (sin la letra) ");
+var letra = prompt("Introduce tu letra ");
 	resto = numero%23;
 	if (letra==letras[resto]) {
 		alert("NUUMERO Y LETRA CORRECTOS")
