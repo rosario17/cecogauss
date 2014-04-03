@@ -18,7 +18,7 @@ for (var i = 0; i < 7; i++) {
 El factorial de un número entero n es una operación matemática que consiste en multiplicar todos los factores n * (n-1) * (n-2) * ... * 1. Así el factorial de 5 (escrito como 5!) es igual a: 5! = 5 * 4 * 3 * 2 * 1 = 120
 Utilizando la estructura for, crear un script que calcule el factorial de un número entero.
 
-
+*/
 var numero = prompt("escribe un numero entero");
 var factoriall = 1;
 for (var i = numero; i >= 1; i--) {
@@ -27,7 +27,7 @@ for (var i = numero; i >= 1; i--) {
 
 alert("el factorial de " + numero + " es " + factoriall);
 
-*/
+
 /*
 var dias = ["Lunes","Martes","Miércoles","Jueves","Viernes","Sábado","Doménica"];
 
