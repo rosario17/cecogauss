@@ -19,6 +19,7 @@ El factorial de un número entero n es una operación matemática que consiste e
 Utilizando la estructura for, crear un script que calcule el factorial de un número entero.
 
 */
+ /*
 var numero = prompt("escribe un numero entero");
 var factoriall = 1;
 for (var i = numero; i >= 1; i--) {
@@ -26,7 +27,7 @@ for (var i = numero; i >= 1; i--) {
 };
 
 alert("el factorial de " + numero + " es " + factoriall);
-
+*/
 
 /*
 var dias = ["Lunes","Martes","Miércoles","Jueves","Viernes","Sábado","Doménica"];
@@ -62,13 +63,19 @@ var mensaje = mensaje1.toLowerCase() //mensaje = "hola"
 var mensaje1 = "Hola Mundo";
 var porcion = mensaje1.substring(1,8) //porcion = "ola Mun"
 var porcion = mensaje1.substring(3,4) //porcion = "a"
+*/
 
+/*
 var mensaje = "Hola Mundo, soy una cadena de texto!";
-var palabras = mensaje.split(" "); // palabras = ["Hola", "Mundo,", "soy", "una", "cadena", "de", "texto!"];
+var palabras = mensaje.split(" ");
+//palabras = ["Hola", "Mundo,", "soy", "una", "cadena", "de", "texto!"];
 for(i in palabras) {
 	alert(palabras[i])
 }
+*/
 
+
+/*
 var numero1 = 4564.34567;
 numero=numero1.toFixed(2);
 alert(numero);
