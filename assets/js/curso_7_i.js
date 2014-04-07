@@ -89,6 +89,7 @@ function nombre_funcion() {
 }
 */
 
+/*
 function suma() {
 	resultado=numero1 + numero2;
 	alert("El resultado es: "+resultado);
@@ -109,9 +110,18 @@ numero1 = 5;
 numero2 = 8;
 
 suma();
+*/
 
+/*
+function suma_y_resta(primerNumero, segundoNumero) {...}
+*/
 
+function calculaPrecioTotal(precio) {
+	var impuestos =1.16;
+	var gastosEnvio = 10;
+	var precioTotal = ( precio * impuestos ) + gastosEnvio;
+	return precioTotal;
+}
 
-
-
-
+var precioTotal = calculaPrecioTotal(23.34);
+alert("El precio Total es "+precioTotal);
