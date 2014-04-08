@@ -35,6 +35,6 @@ function Palindromo(mensaje1)
 		alert("no es palíndromo")
 }
 
-var mensaje_original;
-mensaje_original=prompt("Teclee una frase");
-Palindromo(mensaje_original);
+var mensaje1;
+mensaje1=prompt("Teclee una frase");
+Palindromo(mensaje1);
