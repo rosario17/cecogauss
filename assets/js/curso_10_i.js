@@ -14,6 +14,8 @@ function altercapption(texto_ingresado) {
 			letrero2=letrero2 + letrero1[i];
 		};
 	};
+//	letrero1=letrero2.reverse()
+
 //	alert("contenido de letrero2: " + letrero2)
 	letrero1 = "";
 	for ( i = letrero2.length-1; i >= 0; i--) {
@@ -44,4 +46,7 @@ alert(mensaje + " " + mensaje1)
 
 var entrada = prompt("Ingrese texto");
 //var entrada = "Mi nombre es Slim Shaddy"
+//var entrada = "Anita lava la tina"
+//var entrada = "La ruta nos aporto otro paso natural"
+//var entrada = "Ana"
 alert(altercapption(entrada))
