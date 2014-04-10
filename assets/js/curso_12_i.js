@@ -1,9 +1,10 @@
-/*
-var parrafo=document.createElement("p");
-var contenido=document.createTextNode("Hola mundo!");
-parrafo.appendChild(contenido);
-document.body.appendChild(parrafo);
-*/
+
+var parrafo=document.getElementById("provisional");
+console.log(parrafo);
+//var contenido=document.createTextNode("Hola mundo!");
+parrafo.parentNode.removeChild(parrafo);
+//document.body.appendChild(parrafo);
+
 
 /*
 
